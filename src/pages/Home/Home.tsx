@@ -33,7 +33,7 @@ const Home = () => {
         <div key={item.id}>
           <p>{item.category}</p>
           <p>{item.title}</p>
-          <img src={item.image} alt={item.image} />
+          <img src={item.image} alt={item.title} />
           <p>{item.price}</p>
           <p>{item.description}</p><br/>
           <Link to={`produto/${item.id}`}>Comprar</Link>
